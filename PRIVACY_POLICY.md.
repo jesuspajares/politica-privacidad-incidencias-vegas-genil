@@ -1,0 +1,84 @@
+# Política de Privacidad
+
+Última actualización: **16/12/2025**
+
+La presente Política de Privacidad describe cómo **Incidencias Vegas del Genil** (en adelante, "la App") recopila, utiliza y protege la información personal de los usuarios, de conformidad con el Reglamento (UE) 2016/679 (RGPD) y la normativa española vigente en materia de protección de datos.
+
+## 1. Responsable del tratamiento
+
+* **Responsable**: Incidencias Vegas del Genil
+* **Correo electrónico de contacto**: [jesuspc88@gmail.com](mailto:jesuspc88@gmail.com)
+* **Ámbito territorial**: España
+
+## 2. Datos personales que se recopilan
+
+La App puede recopilar y tratar los siguientes datos personales:
+
+* **Datos identificativos**: nombre, apellidos y correo electrónico.
+* **Datos de autenticación**: email y contraseña (gestionados de forma segura mediante Firebase Authentication).
+* **Datos de ubicación**: ubicación aproximada o puntual únicamente en el momento de crear una incidencia.
+* **Contenido generado por el usuario**: fotografías tomadas con la cámara o seleccionadas desde la galería del dispositivo, asociadas a incidencias.
+* **Datos técnicos y de uso**: información anónima o seudonimizada sobre el uso de la App mediante Firebase Analytics.
+
+## 3. Finalidad del tratamiento de los datos
+
+Los datos personales se tratan con las siguientes finalidades:
+
+* Permitir el **registro y autenticación** de los usuarios.
+* Gestionar la **creación y seguimiento de incidencias municipales**.
+* Asociar incidencias a una **ubicación concreta** para su correcta gestión.
+* Permitir la **subida de fotografías** como evidencia visual de las incidencias.
+* Analizar el uso de la App para **mejorar su funcionamiento y experiencia de usuario**.
+
+## 4. Base legal para el tratamiento
+
+La base legal para el tratamiento de los datos es:
+
+* El **consentimiento del usuario**, otorgado al registrarse y utilizar la App.
+* La **ejecución de un servicio solicitado por el usuario**, consistente en la gestión de incidencias municipales.
+
+## 5. Conservación de los datos
+
+Los datos personales se conservarán mientras el usuario mantenga su cuenta activa o mientras sean necesarios para la finalidad para la que fueron recogidos. El usuario puede solicitar la eliminación de su cuenta y de sus datos personales en cualquier momento.
+
+## 6. Destinatarios de los datos
+
+Los datos no se cederán a terceros, salvo obligación legal. No obstante, la App utiliza servicios de terceros que pueden tratar datos por cuenta del responsable:
+
+* **Firebase (Google LLC)**: autenticación, base de datos y analítica.
+
+Estos proveedores cumplen con el RGPD y aplican medidas de seguridad adecuadas.
+
+## 7. Transferencias internacionales de datos
+
+Al utilizar Firebase, algunos datos pueden ser tratados en servidores ubicados fuera del Espacio Económico Europeo. En estos casos, se aplican las garantías adecuadas conforme al RGPD, como cláusulas contractuales tipo.
+
+## 8. Derechos del usuario
+
+El usuario puede ejercer en cualquier momento los siguientes derechos:
+
+* Acceso a sus datos personales.
+* Rectificación de datos inexactos.
+* Supresión de sus datos (derecho al olvido).
+* Limitación u oposición al tratamiento.
+* Portabilidad de los datos.
+
+Para ejercer estos derechos, puede enviar una solicitud al correo electrónico indicado anteriormente.
+
+## 9. Menores de edad
+
+La App no está dirigida específicamente a menores de 14 años. Si un menor utiliza la App, se entiende que cuenta con el consentimiento de sus padres o tutores legales. Si se detecta el tratamiento de datos de un menor sin dicho consentimiento, estos datos serán eliminados.
+
+## 10. Seguridad de los datos
+
+Se aplican medidas técnicas y organizativas adecuadas para proteger los datos personales y evitar su pérdida, uso indebido, acceso no autorizado o divulgación.
+
+## 11. Cambios en la política de privacidad
+
+El responsable se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a novedades legislativas o cambios en la App. Las modificaciones serán publicadas en esta misma sección.
+
+## 12. Contacto
+
+Para cualquier duda sobre esta Política de Privacidad o el tratamiento de datos personales, puede contactar en:
+
+📧 **[jesuspc88@gmail.com](mailto:jesuspc88@gmail.com)**
