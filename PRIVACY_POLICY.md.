@@ -1,6 +1,6 @@
 # Política de Privacidad
 
-Última actualización: **16/12/2025**
+Última actualización: **[fecha]**
 
 La presente Política de Privacidad describe cómo **Incidencias Vegas del Genil** (en adelante, "la App") recopila, utiliza y protege la información personal de los usuarios, de conformidad con el Reglamento (UE) 2016/679 (RGPD) y la normativa española vigente en materia de protección de datos.
 
@@ -41,7 +41,9 @@ La base legal para el tratamiento de los datos es:
 
 Los datos personales se conservarán mientras el usuario mantenga su cuenta activa o mientras sean necesarios para la finalidad para la que fueron recogidos. El usuario puede solicitar la eliminación de su cuenta y de sus datos personales en cualquier momento.
 
-## 6. Destinatarios de los datos
+## 6. Acceso interno y destinatarios de los datos
+
+Determinados datos personales pueden ser **accesibles por usuarios con rol de administrador** dentro de la App, exclusivamente para fines de gestión y seguridad del servicio.
 
 Los datos no se cederán a terceros, salvo obligación legal. No obstante, la App utiliza servicios de terceros que pueden tratar datos por cuenta del responsable:
 
@@ -49,11 +51,23 @@ Los datos no se cederán a terceros, salvo obligación legal. No obstante, la Ap
 
 Estos proveedores cumplen con el RGPD y aplican medidas de seguridad adecuadas.
 
-## 7. Transferencias internacionales de datos
+## 7. Acceso por administradores
+
+Los usuarios con rol de **administrador** pueden acceder, a través de un menú específico denominado *“Gestionar usuarios”*, a los siguientes datos de los usuarios registrados:
+
+* Nombre y apellidos.
+* Correo electrónico.
+* Fecha de registro.
+
+Este acceso se limita únicamente a finalidades de **gestión, control de uso, prevención de abusos y bloqueo de cuentas** que incumplan las normas de la App. Dichos datos no se utilizan con fines comerciales ni se comunican a terceros.
+
+Los administradores están sujetos a obligaciones de confidencialidad y acceden a los datos únicamente cuando es necesario para el correcto funcionamiento del servicio.
+
+## 8. Transferencias internacionales de datos
 
 Al utilizar Firebase, algunos datos pueden ser tratados en servidores ubicados fuera del Espacio Económico Europeo. En estos casos, se aplican las garantías adecuadas conforme al RGPD, como cláusulas contractuales tipo.
 
-## 8. Derechos del usuario
+## 9. Derechos del usuario
 
 El usuario puede ejercer en cualquier momento los siguientes derechos:
 
@@ -65,19 +79,19 @@ El usuario puede ejercer en cualquier momento los siguientes derechos:
 
 Para ejercer estos derechos, puede enviar una solicitud al correo electrónico indicado anteriormente.
 
-## 9. Menores de edad
+## 10. Menores de edad
 
 La App no está dirigida específicamente a menores de 14 años. Si un menor utiliza la App, se entiende que cuenta con el consentimiento de sus padres o tutores legales. Si se detecta el tratamiento de datos de un menor sin dicho consentimiento, estos datos serán eliminados.
 
-## 10. Seguridad de los datos
+## 11. Seguridad de los datos
 
 Se aplican medidas técnicas y organizativas adecuadas para proteger los datos personales y evitar su pérdida, uso indebido, acceso no autorizado o divulgación.
 
-## 11. Cambios en la política de privacidad
+## 12. Cambios en la política de privacidad
 
 El responsable se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a novedades legislativas o cambios en la App. Las modificaciones serán publicadas en esta misma sección.
 
-## 12. Contacto
+## 13. Contacto
 
 Para cualquier duda sobre esta Política de Privacidad o el tratamiento de datos personales, puede contactar en:
 
