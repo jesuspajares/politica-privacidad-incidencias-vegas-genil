@@ -1,12 +1,12 @@
 # Política de Privacidad
 
-Última actualización: **31/12/2025**
+Última actualización: **03/01/2026**
 
 La presente Política de Privacidad describe cómo **Defiende Vegas del Genil** (en adelante, "la App") recopila, utiliza y protege la información personal de los usuarios, de conformidad con el Reglamento (UE) 2016/679 (RGPD) y la normativa española vigente en materia de protección de datos.
 
 ## 1. Responsable del tratamiento
 
-* **Responsable**: Incidencias Vegas del Genil
+* **Responsable**: Defiende Vegas del Genil
 * **Correo electrónico de contacto**: [contacto@defiendevegasdelgenil.es](mailto:contacto@defiendevegasdelgenil.es)
 * **Ámbito territorial**: España
 
@@ -24,19 +24,11 @@ La App puede recopilar y tratar los siguientes datos personales:
 
 Los datos personales se tratan con las siguientes finalidades:
 
-* Permitir el **registro y autenticación** de los usuarios.
+* Permitir el **registro y autenticación** de los usuarios, incluyendo el inicio de sesión con Google.
 * Gestionar la **creación y seguimiento de incidencias municipales**.
 * Asociar incidencias a una **ubicación concreta** para su correcta gestión.
 * Permitir la **subida de fotografías** como evidencia visual de las incidencias.
 * Mostrar la información de las incidencias de forma **anonimizada para el resto de usuarios**, de manera que **el nombre y los apellidos del usuario que reporta una incidencia solo son visibles para los administradores**.
-* Analizar el uso de la App para **mejorar su funcionamiento y experiencia de usuario**.
-
-Los datos personales se tratan con las siguientes finalidades:
-
-* Permitir el **registro y autenticación** de los usuarios.
-* Gestionar la **creación y seguimiento de incidencias municipales**.
-* Asociar incidencias a una **ubicación concreta** para su correcta gestión.
-* Permitir la **subida de fotografías** como evidencia visual de las incidencias.
 * Analizar el uso de la App para **mejorar su funcionamiento y experiencia de usuario**.
 
 ## 4. Base legal para el tratamiento
@@ -56,12 +48,6 @@ Cuando un usuario elimine su cuenta, se **eliminarán todos sus datos personales
 
 Determinados datos personales pueden ser **accesibles por usuarios con rol de administrador** dentro de la App, exclusivamente para fines de gestión y seguridad del servicio.
 
-Los datos no se cederán a terceros, salvo obligación legal. No obstante, la App utiliza servicios de terceros que pueden tratar datos por cuenta del responsable:
-
-* **Firebase (Google LLC)**: autenticación, base de datos y analítica.
-
-Estos proveedores cumplen con el RGPD y aplican medidas de seguridad adecuadas.
-
 ## 7. Acceso por administradores
 
 Los usuarios con rol de **administrador** pueden acceder, a través de un menú específico denominado *“Gestionar usuarios”*, a los siguientes datos de los usuarios registrados:
@@ -69,20 +55,11 @@ Los usuarios con rol de **administrador** pueden acceder, a través de un menú 
 * Nombre y apellidos.
 * Correo electrónico.
 * Fecha de registro.
+* Estado de verificación del correo electrónico (si el usuario ha verificado su email; los usuarios que inician sesión con Google siempre estarán verificados).
 
 Asimismo, los administradores pueden visualizar el **nombre y apellidos del usuario que ha reportado una incidencia**, información que **no es visible para otros usuarios de la App**.
 
 Este acceso se limita exclusivamente a finalidades de **gestión, control de uso, moderación de incidencias, prevención de abusos y bloqueo de cuentas** que incumplan las normas de la App. Dichos datos no se utilizan con fines comerciales ni se comunican a terceros.
-
-Los administradores están sujetos a obligaciones de confidencialidad y acceden a los datos únicamente cuando es necesario para el correcto funcionamiento del servicio.
-
-Los usuarios con rol de **administrador** pueden acceder, a través de un menú específico denominado *“Gestionar usuarios”*, a los siguientes datos de los usuarios registrados:
-
-* Nombre y apellidos.
-* Correo electrónico.
-* Fecha de registro.
-
-Este acceso se limita únicamente a finalidades de **gestión, control de uso, prevención de abusos y bloqueo de cuentas** que incumplan las normas de la App. Dichos datos no se utilizan con fines comerciales ni se comunican a terceros.
 
 Los administradores están sujetos a obligaciones de confidencialidad y acceden a los datos únicamente cuando es necesario para el correcto funcionamiento del servicio.
 
