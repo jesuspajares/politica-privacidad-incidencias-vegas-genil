@@ -7,7 +7,7 @@ La presente Política de Privacidad describe cómo **Defiende Vegas del Genil** 
 ## 1. Responsable del tratamiento
 
 - **Responsable**: Defiende Vegas del Genil  
-- **Correo electrónico de contacto**: contacto@defiendevegasdelgenil.es  
+- **Correo electrónico de contacto**: [contacto@defiendevegasdelgenil.es](mailto:contacto@defiendevegasdelgenil.es)  
 - **Ámbito territorial**: España  
 
 ## 2. Datos personales que se recopilan
@@ -18,7 +18,7 @@ La App puede recopilar y tratar los siguientes datos personales:
 - **Datos de autenticación**: email y contraseña (gestionados de forma segura mediante Firebase Authentication) o datos de perfil proporcionados por el proveedor de inicio de sesión de Google (nombre, correo electrónico, imagen de perfil si el usuario lo autoriza).  
 - **Datos de ubicación**: ubicación aproximada o puntual únicamente en el momento de crear una incidencia.  
 - **Contenido generado por el usuario**: fotografías tomadas con la cámara o seleccionadas desde la galería del dispositivo, asociadas a incidencias.  
-- **Datos técnicos y de uso**: información anónima o seudonimizada sobre el uso de la App mediante Firebase Analytics.  
+- **Datos técnicos y de uso**: información anónima o seudonimizada sobre el uso de la App mediante Firebase Analytics, incluyendo eventos, pantallas visitadas, errores y rendimiento.  
 - **Datos relacionados con notificaciones**: identificadores técnicos del dispositivo necesarios para el envío de notificaciones push a través de Firebase Cloud Messaging (FCM).
 
 ## 3. Finalidad del tratamiento de los datos
@@ -31,7 +31,7 @@ Los datos personales se tratan con las siguientes finalidades:
 - Permitir la **subida de fotografías** como evidencia visual de las incidencias.  
 - Mostrar la información de las incidencias de forma **anonimizada para el resto de usuarios**, de manera que **el nombre y los apellidos del usuario que reporta una incidencia solo son visibles para los administradores**.  
 - Enviar **notificaciones push de carácter informativo o funcional**, relacionadas con el estado de las incidencias o el funcionamiento de la App.  
-- Analizar el uso de la App para **mejorar su funcionamiento y experiencia de usuario**.  
+- Analizar el uso de la App mediante **Google Analytics / Firebase Analytics** para mejorar su funcionamiento y experiencia de usuario.
 
 ## 4. Base legal para el tratamiento
 
@@ -42,9 +42,11 @@ La base legal para el tratamiento de los datos es:
 
 ## 5. Conservación de los datos
 
-Los datos personales se conservarán mientras el usuario mantenga su cuenta activa o mientras sean necesarios para la finalidad para la que fueron recogidos. El usuario puede solicitar la eliminación de su cuenta y de sus datos personales en cualquier momento.
+Los datos personales se conservarán mientras el usuario mantenga su cuenta activa o mientras sean necesarios para la finalidad para la que fueron recogidos.  
 
-Cuando un usuario elimine su cuenta, se **eliminarán todos sus datos personales** asociados a la misma (incluyendo nombre, apellidos, correo electrónico e identificadores de usuario). Las incidencias reportadas por el usuario **se mantendrán en el sistema**, pero **sin información que pueda identificarle**, permaneciendo totalmente anonimizadas.
+El usuario puede **eliminar su cuenta y los datos asociados directamente desde la App** o, si lo prefiere, mediante [el formulario de contacto](https://defiendevegasdelgenil.es/contacto/).  
+
+Cuando un usuario elimine su cuenta, se **eliminarán todos sus datos personales** asociados a la misma (incluyendo nombre, apellidos, correo electrónico e identificadores de usuario). Las incidencias reportadas por el usuario **se mantendrán en el sistema**, pero **sin información que pueda identificarle**, permaneciendo totalmente anonimizadas. Las fotografías asociadas a incidencias se eliminan automáticamente **a los 30 días si la incidencia se resuelve** o **a los 2 días si se rechaza**. Técnicamente, si una incidencia no cambia de estado, la foto podría permanecer más tiempo.
 
 ## 6. Acceso interno y destinatarios de los datos
 
@@ -86,7 +88,7 @@ El usuario puede ejercer en cualquier momento los siguientes derechos:
 - Limitación u oposición al tratamiento.  
 - Portabilidad de los datos.  
 
-Para ejercer estos derechos, puede enviar una solicitud al correo electrónico indicado anteriormente.
+Para ejercer estos derechos, puede eliminarlos **directamente desde la App** o, alternativamente, mediante [el formulario de contacto](https://defiendevegasdelgenil.es/contacto/).
 
 ## 10. Menores de edad
 
@@ -104,4 +106,4 @@ El responsable se reserva el derecho a modificar la presente Política de Privac
 
 Para cualquier duda sobre esta Política de Privacidad o el tratamiento de datos personales, puede contactar en:
 
-📧 **contacto@defiendevegasdelgenil.es**
+📧 **[contacto@defiendevegasdelgenil.es](mailto:contacto@defiendevegasdelgenil.es)**
