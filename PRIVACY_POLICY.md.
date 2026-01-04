@@ -1,42 +1,44 @@
 # Política de Privacidad
 
-Última actualización: **03/01/2026**
+Última actualización: **04/01/2026**
 
 La presente Política de Privacidad describe cómo **Defiende Vegas del Genil** (en adelante, "la App") recopila, utiliza y protege la información personal de los usuarios, de conformidad con el Reglamento (UE) 2016/679 (RGPD) y la normativa española vigente en materia de protección de datos.
 
 ## 1. Responsable del tratamiento
 
-* **Responsable**: Defiende Vegas del Genil
-* **Correo electrónico de contacto**: [contacto@defiendevegasdelgenil.es](mailto:contacto@defiendevegasdelgenil.es)
-* **Ámbito territorial**: España
+- **Responsable**: Defiende Vegas del Genil  
+- **Correo electrónico de contacto**: contacto@defiendevegasdelgenil.es  
+- **Ámbito territorial**: España  
 
 ## 2. Datos personales que se recopilan
 
 La App puede recopilar y tratar los siguientes datos personales:
 
-* **Datos identificativos**: nombre, apellidos y correo electrónico.
-* **Datos de autenticación**: email y contraseña (gestionados de forma segura mediante Firebase Authentication) o datos de perfil proporcionados por el proveedor de inicio de sesión de Google (nombre, correo electrónico, imagen de perfil si el usuario lo autoriza).
-* **Datos de ubicación**: ubicación aproximada o puntual únicamente en el momento de crear una incidencia.
-* **Contenido generado por el usuario**: fotografías tomadas con la cámara o seleccionadas desde la galería del dispositivo, asociadas a incidencias.
-* **Datos técnicos y de uso**: información anónima o seudonimizada sobre el uso de la App mediante Firebase Analytics.
+- **Datos identificativos**: nombre, apellidos y correo electrónico.  
+- **Datos de autenticación**: email y contraseña (gestionados de forma segura mediante Firebase Authentication) o datos de perfil proporcionados por el proveedor de inicio de sesión de Google (nombre, correo electrónico, imagen de perfil si el usuario lo autoriza).  
+- **Datos de ubicación**: ubicación aproximada o puntual únicamente en el momento de crear una incidencia.  
+- **Contenido generado por el usuario**: fotografías tomadas con la cámara o seleccionadas desde la galería del dispositivo, asociadas a incidencias.  
+- **Datos técnicos y de uso**: información anónima o seudonimizada sobre el uso de la App mediante Firebase Analytics.  
+- **Datos relacionados con notificaciones**: identificadores técnicos del dispositivo necesarios para el envío de notificaciones push a través de Firebase Cloud Messaging (FCM).
 
 ## 3. Finalidad del tratamiento de los datos
 
 Los datos personales se tratan con las siguientes finalidades:
 
-* Permitir el **registro y autenticación** de los usuarios, incluyendo el inicio de sesión con Google.
-* Gestionar la **creación y seguimiento de incidencias municipales**.
-* Asociar incidencias a una **ubicación concreta** para su correcta gestión.
-* Permitir la **subida de fotografías** como evidencia visual de las incidencias.
-* Mostrar la información de las incidencias de forma **anonimizada para el resto de usuarios**, de manera que **el nombre y los apellidos del usuario que reporta una incidencia solo son visibles para los administradores**.
-* Analizar el uso de la App para **mejorar su funcionamiento y experiencia de usuario**.
+- Permitir el **registro y autenticación** de los usuarios, incluyendo el inicio de sesión con Google.  
+- Gestionar la **creación y seguimiento de incidencias municipales**.  
+- Asociar incidencias a una **ubicación concreta** para su correcta gestión.  
+- Permitir la **subida de fotografías** como evidencia visual de las incidencias.  
+- Mostrar la información de las incidencias de forma **anonimizada para el resto de usuarios**, de manera que **el nombre y los apellidos del usuario que reporta una incidencia solo son visibles para los administradores**.  
+- Enviar **notificaciones push de carácter informativo o funcional**, relacionadas con el estado de las incidencias o el funcionamiento de la App.  
+- Analizar el uso de la App para **mejorar su funcionamiento y experiencia de usuario**.  
 
 ## 4. Base legal para el tratamiento
 
 La base legal para el tratamiento de los datos es:
 
-* El **consentimiento del usuario**, otorgado al registrarse y utilizar la App.
-* La **ejecución de un servicio solicitado por el usuario**, consistente en la gestión de incidencias municipales.
+- El **consentimiento del usuario**, otorgado al registrarse y utilizar la App.  
+- La **ejecución de un servicio solicitado por el usuario**, consistente en la gestión de incidencias municipales.  
 
 ## 5. Conservación de los datos
 
@@ -48,14 +50,21 @@ Cuando un usuario elimine su cuenta, se **eliminarán todos sus datos personales
 
 Determinados datos personales pueden ser **accesibles por usuarios con rol de administrador** dentro de la App, exclusivamente para fines de gestión y seguridad del servicio.
 
+Asimismo, la App utiliza **servicios de terceros** necesarios para su funcionamiento:
+
+- **Firebase (Google LLC)**: autenticación, base de datos, analítica y notificaciones push.  
+- **Google Maps / servicios de geolocalización**: para mostrar y gestionar ubicaciones asociadas a incidencias.
+
+Estos proveedores actúan como encargados del tratamiento y cumplen con el RGPD.
+
 ## 7. Acceso por administradores
 
 Los usuarios con rol de **administrador** pueden acceder, a través de un menú específico denominado *“Gestionar usuarios”*, a los siguientes datos de los usuarios registrados:
 
-* Nombre y apellidos.
-* Correo electrónico.
-* Fecha de registro.
-* Estado de verificación del correo electrónico (si el usuario ha verificado su email; los usuarios que inician sesión con Google siempre estarán verificados).
+- Nombre y apellidos.  
+- Correo electrónico.  
+- Fecha de registro.  
+- Estado de verificación del correo electrónico (si el usuario ha verificado su email; los usuarios que inician sesión con Google siempre estarán verificados).  
 
 Asimismo, los administradores pueden visualizar el **nombre y apellidos del usuario que ha reportado una incidencia**, información que **no es visible para otros usuarios de la App**.
 
@@ -65,17 +74,17 @@ Los administradores están sujetos a obligaciones de confidencialidad y acceden 
 
 ## 8. Transferencias internacionales de datos
 
-Al utilizar Firebase, algunos datos pueden ser tratados en servidores ubicados fuera del Espacio Económico Europeo. En estos casos, se aplican las garantías adecuadas conforme al RGPD, como cláusulas contractuales tipo.
+Al utilizar Firebase y servicios de Google, algunos datos pueden ser tratados en servidores ubicados fuera del Espacio Económico Europeo. En estos casos, se aplican las garantías adecuadas conforme al RGPD, como cláusulas contractuales tipo.
 
 ## 9. Derechos del usuario
 
 El usuario puede ejercer en cualquier momento los siguientes derechos:
 
-* Acceso a sus datos personales.
-* Rectificación de datos inexactos.
-* Supresión de sus datos (derecho al olvido).
-* Limitación u oposición al tratamiento.
-* Portabilidad de los datos.
+- Acceso a sus datos personales.  
+- Rectificación de datos inexactos.  
+- Supresión de sus datos (derecho al olvido).  
+- Limitación u oposición al tratamiento.  
+- Portabilidad de los datos.  
 
 Para ejercer estos derechos, puede enviar una solicitud al correo electrónico indicado anteriormente.
 
@@ -95,4 +104,4 @@ El responsable se reserva el derecho a modificar la presente Política de Privac
 
 Para cualquier duda sobre esta Política de Privacidad o el tratamiento de datos personales, puede contactar en:
 
-📧 **[contacto@defiendevegasdelgenil.es](mailto:contacto@defiendevegasdelgenil.es)**
+📧 **contacto@defiendevegasdelgenil.es**
