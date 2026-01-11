@@ -1,6 +1,6 @@
 # Política de Privacidad
 
-Última actualización: **04/01/2026**
+Última actualización: **11/01/2026**
 
 La presente Política de Privacidad describe cómo **Defiende Vegas del Genil** (en adelante, "la App") recopila, utiliza y protege la información personal de los usuarios, de conformidad con el Reglamento (UE) 2016/679 (RGPD) y la normativa española vigente en materia de protección de datos.
 
@@ -18,7 +18,7 @@ La App puede recopilar y tratar los siguientes datos personales:
 - **Datos de autenticación**: email y contraseña (gestionados de forma segura mediante Firebase Authentication) o datos de perfil proporcionados por el proveedor de inicio de sesión de Google (nombre, correo electrónico, imagen de perfil si el usuario lo autoriza).  
 - **Datos de ubicación**: ubicación aproximada o puntual únicamente en el momento de crear una incidencia.  
 - **Contenido generado por el usuario**: fotografías tomadas con la cámara o seleccionadas desde la galería del dispositivo, asociadas a incidencias.  
-- **Datos técnicos y de uso**: información anónima o seudonimizada sobre el uso de la App mediante Firebase Analytics, incluyendo eventos, pantallas visitadas, errores y rendimiento.  
+- **Datos técnicos y de uso**: información anónima o seudonimizada sobre el uso de la App mediante **Firebase Analytics**, incluyendo eventos de uso, pantallas visitadas, errores y datos de rendimiento, **únicamente si el usuario ha otorgado su consentimiento expreso**.  
 - **Datos relacionados con notificaciones**: identificadores técnicos del dispositivo necesarios para el envío de notificaciones push a través de Firebase Cloud Messaging (FCM).
 
 ## 3. Finalidad del tratamiento de los datos
@@ -31,14 +31,16 @@ Los datos personales se tratan con las siguientes finalidades:
 - Permitir la **subida de fotografías** como evidencia visual de las incidencias.  
 - Mostrar la información de las incidencias de forma **anonimizada para el resto de usuarios**, de manera que **el nombre y los apellidos del usuario que reporta una incidencia solo son visibles para los administradores**.  
 - Enviar **notificaciones push de carácter informativo o funcional**, relacionadas con el estado de las incidencias o el funcionamiento de la App.  
-- Analizar el uso de la App mediante **Google Analytics / Firebase Analytics** para mejorar su funcionamiento y experiencia de usuario.
+- Analizar el uso de la App mediante **Firebase Analytics**, **únicamente si el usuario ha dado su consentimiento**, con el fin de mejorar su funcionamiento y la experiencia de usuario.
 
 ## 4. Base legal para el tratamiento
 
 La base legal para el tratamiento de los datos es:
 
-- El **consentimiento del usuario**, otorgado al registrarse y utilizar la App.  
 - La **ejecución de un servicio solicitado por el usuario**, consistente en la gestión de incidencias municipales.  
+- El **consentimiento expreso del usuario** para el tratamiento de datos con fines de **análisis y medición del uso de la App mediante Firebase Analytics**.
+
+El usuario puede **otorgar o retirar su consentimiento para el uso de Firebase Analytics en cualquier momento**, sin que ello afecte al funcionamiento básico de la App.
 
 ## 5. Conservación de los datos
 
@@ -46,7 +48,11 @@ Los datos personales se conservarán mientras el usuario mantenga su cuenta acti
 
 El usuario puede **eliminar su cuenta y los datos asociados directamente desde la App** o, si lo prefiere, mediante [el formulario de contacto](https://defiendevegasdelgenil.es/contacto/).  
 
-Cuando un usuario elimine su cuenta, se **eliminarán todos sus datos personales** asociados a la misma (incluyendo nombre, apellidos, correo electrónico e identificadores de usuario). Las incidencias reportadas por el usuario **se mantendrán en el sistema**, pero **sin información que pueda identificarle**, permaneciendo totalmente anonimizadas. Las fotografías asociadas a incidencias se eliminan automáticamente **a los 30 días si la incidencia se resuelve** o **a los 2 días si se rechaza**. Técnicamente, si una incidencia no cambia de estado, la foto podría permanecer más tiempo.
+Cuando un usuario elimina su cuenta, se **eliminan todos sus datos personales** asociados a la misma (incluyendo nombre, apellidos, correo electrónico e identificadores de usuario).  
+
+Las incidencias reportadas por el usuario **se mantienen en el sistema**, pero **sin información que permita identificarle**, permaneciendo totalmente anonimizadas.  
+
+Las fotografías asociadas a incidencias se eliminan automáticamente **a los 30 días si la incidencia se resuelve** o **a los 2 días si se rechaza**. Técnicamente, si una incidencia no cambia de estado, la fotografía podría permanecer almacenada durante más tiempo.
 
 ## 6. Acceso interno y destinatarios de los datos
 
@@ -54,10 +60,10 @@ Determinados datos personales pueden ser **accesibles por usuarios con rol de ad
 
 Asimismo, la App utiliza **servicios de terceros** necesarios para su funcionamiento:
 
-- **Firebase (Google LLC)**: autenticación, base de datos, analítica y notificaciones push.  
-- **Google Maps / servicios de geolocalización**: para mostrar y gestionar ubicaciones asociadas a incidencias.
+- **Firebase (Google LLC)**: autenticación, base de datos, analítica (previo consentimiento) y notificaciones push.  
+- **Google Maps y servicios de geolocalización**: para mostrar y gestionar ubicaciones asociadas a incidencias.
 
-Estos proveedores actúan como encargados del tratamiento y cumplen con el RGPD.
+Estos proveedores actúan como **encargados del tratamiento** y cumplen con el RGPD.
 
 ## 7. Acceso por administradores
 
@@ -66,17 +72,16 @@ Los usuarios con rol de **administrador** pueden acceder, a través de un menú 
 - Nombre y apellidos.  
 - Correo electrónico.  
 - Fecha de registro.  
-- Estado de verificación del correo electrónico (si el usuario ha verificado su email; los usuarios que inician sesión con Google siempre estarán verificados).  
+- Estado de verificación del correo electrónico (si el usuario ha verificado su email; los usuarios que inician sesión con Google siempre estarán verificados).
 
 Asimismo, los administradores pueden visualizar el **nombre y apellidos del usuario que ha reportado una incidencia**, información que **no es visible para otros usuarios de la App**.
 
-Este acceso se limita exclusivamente a finalidades de **gestión, control de uso, moderación de incidencias, prevención de abusos y bloqueo de cuentas** que incumplan las normas de la App. Dichos datos no se utilizan con fines comerciales ni se comunican a terceros.
-
-Los administradores están sujetos a obligaciones de confidencialidad y acceden a los datos únicamente cuando es necesario para el correcto funcionamiento del servicio.
+Este acceso se limita exclusivamente a finalidades de **gestión, control de uso, moderación de incidencias, prevención de abusos y bloqueo de cuentas** que incumplan las normas de la App.  
+Los datos no se utilizan con fines comerciales ni se comunican a terceros.
 
 ## 8. Transferencias internacionales de datos
 
-Al utilizar Firebase y servicios de Google, algunos datos pueden ser tratados en servidores ubicados fuera del Espacio Económico Europeo. En estos casos, se aplican las garantías adecuadas conforme al RGPD, como cláusulas contractuales tipo.
+Al utilizar Firebase y otros servicios de Google, algunos datos pueden ser tratados en servidores ubicados fuera del Espacio Económico Europeo. En estos casos, se aplican las garantías adecuadas conforme al RGPD, como **cláusulas contractuales tipo**.
 
 ## 9. Derechos del usuario
 
@@ -87,8 +92,9 @@ El usuario puede ejercer en cualquier momento los siguientes derechos:
 - Supresión de sus datos (derecho al olvido).  
 - Limitación u oposición al tratamiento.  
 - Portabilidad de los datos.  
+- Retirar el consentimiento otorgado para el uso de Firebase Analytics.
 
-Para ejercer estos derechos, puede eliminarlos **directamente desde la App** o, alternativamente, mediante [el formulario de contacto](https://defiendevegasdelgenil.es/contacto/).
+El ejercicio de estos derechos puede realizarse **directamente desde la App** o, alternativamente, mediante [el formulario de contacto](https://defiendevegasdelgenil.es/contacto/).
 
 ## 10. Menores de edad
 
