@@ -1,6 +1,6 @@
 # Política de Privacidad
 
-Última actualización: **11/01/2026**
+Última actualización: **16/01/2026**
 
 La presente Política de Privacidad describe cómo **Defiende Vegas del Genil** (en adelante, "la App") recopila, utiliza y protege la información personal de los usuarios, de conformidad con el Reglamento (UE) 2016/679 (RGPD) y la normativa española vigente en materia de protección de datos.
 
@@ -19,6 +19,7 @@ La App puede recopilar y tratar los siguientes datos personales:
 - **Datos de ubicación**: ubicación aproximada o puntual únicamente en el momento de crear una incidencia.  
 - **Contenido generado por el usuario**: fotografías tomadas con la cámara o seleccionadas desde la galería del dispositivo, asociadas a incidencias.  
 - **Datos técnicos y de uso**: información anónima o seudonimizada sobre el uso de la App mediante **Firebase Analytics**, incluyendo eventos de uso, pantallas visitadas, errores y datos de rendimiento, **únicamente si el usuario ha otorgado su consentimiento expreso**.  
+- **Datos de errores técnicos (Crashlytics)**: información técnica anónima sobre errores y fallos de la App (stack traces, versión de la App, modelo de dispositivo, registros de errores), únicamente con el objetivo de diagnosticar y solucionar problemas técnicos. Estos datos **no contienen información personal identificable**.  
 - **Datos relacionados con notificaciones**: identificadores técnicos del dispositivo necesarios para el envío de notificaciones push a través de Firebase Cloud Messaging (FCM).
 
 ## 3. Finalidad del tratamiento de los datos
@@ -31,14 +32,16 @@ Los datos personales se tratan con las siguientes finalidades:
 - Permitir la **subida de fotografías** como evidencia visual de las incidencias.  
 - Mostrar la información de las incidencias de forma **anonimizada para el resto de usuarios**, de manera que **el nombre y los apellidos del usuario que reporta una incidencia solo son visibles para los administradores**.  
 - Enviar **notificaciones push de carácter informativo o funcional**, relacionadas con el estado de las incidencias o el funcionamiento de la App.  
-- Analizar el uso de la App mediante **Firebase Analytics**, **únicamente si el usuario ha dado su consentimiento**, con el fin de mejorar su funcionamiento y la experiencia de usuario.
+- Analizar el uso de la App mediante **Firebase Analytics**, **únicamente si el usuario ha dado su consentimiento**, con el fin de mejorar su funcionamiento y la experiencia de usuario.  
+- Detectar, diagnosticar y solucionar **errores técnicos y fallos de la App** mediante **Firebase Crashlytics**, con el fin de mejorar la estabilidad y funcionalidad del servicio.
 
 ## 4. Base legal para el tratamiento
 
 La base legal para el tratamiento de los datos es:
 
 - La **ejecución de un servicio solicitado por el usuario**, consistente en la gestión de incidencias municipales.  
-- El **consentimiento expreso del usuario** para el tratamiento de datos con fines de **análisis y medición del uso de la App mediante Firebase Analytics**.
+- El **consentimiento expreso del usuario** para el tratamiento de datos con fines de **análisis y medición del uso de la App mediante Firebase Analytics**.  
+- El **interés legítimo** del responsable para la **detección, diagnóstico y corrección de errores técnicos mediante Firebase Crashlytics**, con el objetivo de mantener la estabilidad y funcionalidad de la App.
 
 El usuario puede **otorgar o retirar su consentimiento para el uso de Firebase Analytics en cualquier momento**, sin que ello afecte al funcionamiento básico de la App.
 
@@ -60,14 +63,14 @@ Determinados datos personales pueden ser **accesibles por usuarios con rol de ad
 
 Asimismo, la App utiliza **servicios de terceros** necesarios para su funcionamiento:
 
-- **Firebase (Google LLC)**: autenticación, base de datos, analítica (previo consentimiento) y notificaciones push.  
+- **Firebase (Google LLC)**: autenticación, base de datos, analítica (previo consentimiento), **reporte de errores técnicos (Crashlytics)** y notificaciones push.  
 - **Google Maps y servicios de geolocalización**: para mostrar y gestionar ubicaciones asociadas a incidencias.
 
 Estos proveedores actúan como **encargados del tratamiento** y cumplen con el RGPD.
 
 ## 7. Acceso por administradores
 
-Los usuarios con rol de **administrador** pueden acceder, a través de un menú específico denominado *“Gestionar usuarios”*, a los siguientes datos de los usuarios registrados:
+Los usuarios con rol de **administrador** pueden acceder, a través de un menú específico denominado *"Gestionar usuarios"*, a los siguientes datos de los usuarios registrados:
 
 - Nombre y apellidos.  
 - Correo electrónico.  
